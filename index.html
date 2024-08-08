@@ -8,20 +8,32 @@
     <style>
         body {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
             font-family: Arial, sans-serif;
             background-color: #f8f8f8;
+            text-align: center;
         }
         h1 {
             color: #000080;
+        }
+        h2 {
+            margin-top: 20px;
+        }
+        a {
+            color: #000080;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <h1>You scanned the risky QR Code. If this wasn't a test email, it could've been very dangerous!</h1>
-    <h2>Check out our Confluence space for information on safe QR Code use : https://confluence.valtech.com/display/GPAS/How+To+-+QR+Codes</h2>
+    <h2>Check out our Confluence space for information on safe QR Code use: <a href="https://confluence.valtech.com/display/GPAS/How+To+-+QR+Codes" target="_blank">https://confluence.valtech.com/display/GPAS/How+To+-+QR+Codes</a></h2>
 </body>
 </html>
